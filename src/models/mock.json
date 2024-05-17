@@ -1,0 +1,48 @@
+{
+  "id": "1",
+  "title": "Sample Beat Sheet",
+  "acts": [
+    {
+      "id": "act1",
+      "description": "Introduction",
+      "timestamp": "2024-05-16T12:00:00Z",
+      "beats": [
+        {
+          "id": "act1_beat1",
+          "description": "Opening shot of the protagonist in their ordinary world",
+          "timestamp": "2024-05-16T12:05:00Z",
+          "duration": 10,
+          "cameraAngle": "Wide shot"
+        },
+        {
+          "id": "act1_beat2",
+          "description": "Protagonist receives a call to adventure",
+          "timestamp": "2024-05-16T12:10:00Z",
+          "duration": 8,
+          "cameraAngle": "Over-the-shoulder shot"
+        }
+      ]
+    },
+    {
+      "id": "act2",
+      "description": "Confrontation",
+      "timestamp": "2024-05-16T12:30:00Z",
+      "beats": [
+        {
+          "id": "act2_beat1",
+          "description": "Protagonist faces initial obstacles",
+          "timestamp": "2024-05-16T12:35:00Z",
+          "duration": 15,
+          "cameraAngle": "Medium shot"
+        },
+        {
+          "id": "act2_beat2",
+          "description": "Protagonist meets mentor",
+          "timestamp": "2024-05-16T12:45:00Z",
+          "duration": 12,
+          "cameraAngle": "Close-up shot"
+        }
+      ]
+    }
+  ]
+}
