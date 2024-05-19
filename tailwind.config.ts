@@ -9,22 +9,22 @@ export const colors = {
 };
 
 export default {
-  content: ["./index.html", "./src/**/*.{html,js,tsx,jsx}"],
+  content: ['./index.html', './src/**/*.{html,js,tsx,jsx}'],
   theme: {
     screens: {
-      sm: "480px",
-      md: "768px",
-      lg: "976px",
-      xl: "1440px",
+      sm: '650px',
+      md: '768px',
+      lg: '976px',
+      xl: '1440px',
     },
     extend: {
       fontFamily: {
-        sans: ["roboto", "system-ui", "ui-sans-serif"],
-        serif: ["ui-serif"],
+        sans: ['roboto', 'system-ui', 'ui-sans-serif'],
+        serif: ['ui-serif'],
       },
       colors: colors,
       spacing: {
-        "bs-max": "1400px",
+        'bs-max': '1400px',
       },
       keyframes: {
         fadein: {
@@ -37,8 +37,8 @@ export default {
         },
       },
       animation: {
-        fadein: "fadein .4s ease-in-out",
-        fadeout: "fadeout .4s ease-in-out",
+        fadein: 'fadein .4s ease-in-out',
+        fadeout: 'fadeout .4s ease-in-out',
       },
     },
   },

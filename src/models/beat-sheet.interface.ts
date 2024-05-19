@@ -7,8 +7,8 @@ export interface IBeatSheet {
 export interface IAct {
   id: string;
   description: string;
-  timestamp: string;
   beats: IBeat[];
+  timestamp?: string;
 }
 
 export interface IBeat {
