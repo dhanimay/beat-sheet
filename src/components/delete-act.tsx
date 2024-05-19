@@ -1,13 +1,14 @@
 import { FC } from 'react';
+import { Button } from './button';
 
 interface DeleteActProps {
+  onClick: () => void
 }
 
-export const DeleteAct: FC<DeleteActProps> = ({ }) => {
-  const buttonClass = 'rounded-none border-[1px] border-black bg-[#363649] absolute top-0 right-0 h-[35px] flex place-content-center';
+export const DeleteAct: FC<DeleteActProps> = ({ onClick }) => {
   return (
-    <button className={buttonClass + ' text-red-600'}>
+    <Button className='absolute bg-bs-black p-1 top-2 right-4 text-red-600' onClick={onClick}>
       <span>Delete</span>
-    </button>
+    </Button>
   )
 }

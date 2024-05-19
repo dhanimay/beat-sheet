@@ -9,7 +9,6 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -24,6 +23,7 @@
   margin: 0;
   padding: 0;
   min-width: 100%;
+  overflow: scroll;
 }
 
 a {
@@ -36,6 +36,7 @@ a:hover {
 }
 
 html, body {
+  @apply bg-bs-black;
   margin: 0;
   padding: 0;
   min-width: 320px;
@@ -79,4 +80,24 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+.remove-arrow::-webkit-inner-spin-button,
+.remove-arrow::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.remove-arrow {
+    -moz-appearance: textfield;
+}
+
+.text-stroke {
+  font-family: sans-serif;
+  text-stroke: 1px white;
+  -webkit-text-stroke: 1px white;
+  color: transparent;
+}
+
+.sheet-hover:hover .sheet-delete {
+  opacity: 1;
 }
